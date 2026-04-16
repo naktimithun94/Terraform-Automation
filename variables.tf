@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "sg-0d8318b6a56c7d7d0" 
+    default     = "jenkins-sgroup" 
 }
 
 variable "tag_name" { 
